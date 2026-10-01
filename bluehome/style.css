@@ -4,3 +4,4 @@
 /* Round portraits and gentle architectural motion */
 .founder img{width:96px;height:96px;border-radius:50%;object-fit:cover;object-position:center 20%;border:3px solid #ececea;transition:transform .4s,filter .4s}.founder:hover img{transform:scale(1.06);filter:grayscale(0)}.skyline{height:330px;opacity:.85;animation:skyline-drift 14s ease-in-out infinite alternate;background-size:110% 100%;mask-image:linear-gradient(transparent 0%,black 23%,black 93%,transparent)}@keyframes skyline-drift{from{background-position:45% bottom;transform:translateY(0)}to{background-position:55% bottom;transform:translateY(-9px)}}@media(max-width:720px){.founder img{width:78px;height:78px;flex-shrink:0}.skyline{height:210px;background-size:185% 100%}}
 
+.founder img{flex:0 0 96px;aspect-ratio:1}.founder>div{min-width:0}@media(max-width:720px){.founder img{flex-basis:78px}}
